@@ -1,0 +1,2 @@
+# basic
+Fyrir basic theme
