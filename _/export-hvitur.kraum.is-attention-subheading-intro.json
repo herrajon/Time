@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Attention",
+        "handle": "attention",
+        "instructions": "The attentionseekers place in the world",
+        "required": false,
+        "translatable": 0,
+        "type": "RichText",
+        "settings": {
+            "configFile": "Standard.json",
+            "availableAssetSources": "*",
+            "availableTransforms": "*",
+            "cleanupHtml": 1,
+            "purifyHtml": 1,
+            "columnType": "text"
+        }
+    },
+    {
+        "name": "Intro Elements",
+        "handle": "introElements",
+        "instructions": "Add some content to your ravishing intro",
+        "required": false,
+        "translatable": 0,
+        "type": "Matrix",
+        "settings": {
+            "maxBlocks": null,
+            "blockTypes": {
+                "new1": {
+                    "name": "Body Block",
+                    "handle": "bodyBlock",
+                    "fields": {
+                        "new1": {
+                            "name": "Introtext",
+                            "handle": "theBody",
+                            "required": 0,
+                            "instructions": "Add some short but descriptive text for your intro to the page",
+                            "translatable": 0,
+                            "type": "RichText",
+                            "typesettings": {
+                                "configFile": "Standard.json",
+                                "availableAssetSources": "*",
+                                "availableTransforms": "*",
+                                "cleanupHtml": 1,
+                                "purifyHtml": 1,
+                                "columnType": "text"
+                            }
+                        }
+                    }
+                },
+                "new2": {
+                    "name": "Space Block",
+                    "handle": "spaceBlock",
+                    "fields": {
+                        "new1": {
+                            "name": "A Space",
+                            "handle": "theSpace",
+                            "required": 0,
+                            "instructions": "Some vertical whitespace when supposedly to push down your TOC if the Intro does not do the job. Enter number of lines (Max 10).",
+                            "translatable": 0,
+                            "type": "Number",
+                            "typesettings": {
+                                "min": 0,
+                                "max": 10,
+                                "decimals": 0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    {
+        "name": "Subheading",
+        "handle": "subheading",
+        "instructions": "When a descriptive subheading is needed.",
+        "required": false,
+        "translatable": 0,
+        "type": "RichText",
+        "settings": {
+            "configFile": "Standard.json",
+            "availableAssetSources": "*",
+            "availableTransforms": "*",
+            "cleanupHtml": 1,
+            "purifyHtml": 1,
+            "columnType": "text"
+        }
+    }
+]
