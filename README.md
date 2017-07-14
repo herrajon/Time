@@ -1,3 +1,2 @@
 # basic
-Fyrir basic theme
-Vúhú!!
+It shall be done
