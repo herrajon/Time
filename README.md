@@ -1,1 +1,2 @@
-“Everything requires time. It is the one truly universal condition.” 
+Keeps flowing like a river
+To the sea
