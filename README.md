@@ -1,2 +1,2 @@
-Keeps flowing like a river
+Keeps flowing like a river.
 To the sea
