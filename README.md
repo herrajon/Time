@@ -1,3 +1,1 @@
-All those moments.
-
-Lost.
+I have seen things you people wouldn't believe
