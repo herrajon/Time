@@ -1,1 +1,1 @@
-All those moments.
+In it for the cash.
